@@ -1,0 +1,43 @@
+.match-card-list-item {
+  background-color: #0f172a;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  padding: 3%;
+  width: 30%;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Bre Serif';
+  font-weight: 600;
+}
+.competing-team-recent {
+  font-size: larger;
+}
+.team-logo {
+  width: 40%;
+  height: 40%;
+}
+.result {
+  font-size: large;
+}
+
+.won {
+  color: #18ed66;
+  font-weight: 600;
+  font-size: larger;
+}
+.lost {
+  color: #e31a1a;
+  font-weight: 600;
+  font-size: larger;
+}
+
+@media screen and (max-width: 765px) {
+  .match-card-list-item {
+    width: 45%;
+  }
+}

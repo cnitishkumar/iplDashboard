@@ -1,0 +1,80 @@
+.latest-match-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: 'Bre Serif';
+  border-radius: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-size: x-large;
+
+  font-family: 'Bre Serif';
+}
+.sub-div-1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+.competing-team-logo {
+  width: 20%;
+  min-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-div-2 {
+  padding: 20px;
+  text-align: right;
+}
+.competing-team-name {
+  font-size: larger;
+}
+.date {
+  font-size: large;
+}
+.venue {
+  font-size: medium;
+}
+.result {
+  font-size: medium;
+}
+.innings-count {
+  font-size: medium;
+}
+.innings {
+  font-size: larger;
+}
+.umpires {
+  font-size: small;
+}
+.hr {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .hr {
+    display: block;
+    width: 100%;
+  }
+  .competing-team-logo {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .latest-match-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-div-1 {
+    width: 100%;
+    display: flex;
+  }
+  .sub-div-2 {
+    width: 100%;
+    text-align: start;
+  }
+}

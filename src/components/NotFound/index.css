@@ -1,0 +1,12 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.not-found-heading {
+  color: #ffffff;
+  font-family: 'Bre Serif';
+}
